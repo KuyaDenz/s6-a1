@@ -1,7 +1,11 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Activity: CSS Introduction</title>
+
+        <link rel="stylesheet" type="text/css" href="./Activity.css">
     </head>
     <body>
 
@@ -9,14 +13,15 @@
 
         <!-- Different ways to include CSS -->
 <!-- 2. Add inline styling to a paragraph tag: change the font color to red -->
-        <p>Apply inline styling here.</p>
+        <p id="inline">Apply inline styling here.</p>
+
 <!-- 3. Apply an internal styling to p tag: named the id attribute to "internal" and change the font color into orange  -->
-        <p>Apply internal styling here.</p>
+        <p id="internal">Apply internal styling here.</p>
 
 <!-- 4. Create an index.css file -->
 
 <!-- 5. Apply an external styling to p tag: named the id attribute to "external" and change the font color into yellow -->
-        <p>Apply external styling here.</p>
+        <p id="external">Apply external styling here.</p>
 
 
  <!-- 6. Change the font-family to 'Verdana' and 20px font size to all elements using the universal selector.  -->
@@ -28,25 +33,25 @@
         <!-- CSS Selectors -->
         <h1>CSS Introduction Activity</h1>
 
-        <h2>The following are things you will learn in this bootcamp:</h2>
+        <h2 id="sub-header">The following are things you will learn in this bootcamp:</h2>
 
 
  <!-- 9. Change the background colors of the languages to be learn list items using a class selectors. Change it to green or #aed19d -->
         <h3>Languages to be Learned</h3>
         <ol>
-            <li>Hypertext Markup Language</li>
-            <li>Cascading Style Sheet</li>
-            <li>JavaScript</li>
+            <li class="text-green">Hypertext Markup Language</li>
+            <li class="text-green">Cascading Style Sheet</li>
+            <li class="text-green">JavaScript</li>
         </ol>
 
 
  <!-- 10. Change the border of the tools to be used list items using an attribute selectors. Change it to blue or rgb(157, 176, 209)-->
         <h3>Tools to be Used</h3>
         <ol>
-            <li>Sublime Text</li>
-            <li>Postman</li>
-            <li>Heroku</li>
-            <li>GitLab</li>
+            <li class="border-blue">Sublime Text</li>
+            <li class="border-blue">Postman</li>
+            <li class="border-blue">Heroku</li>
+            <li class="border-blue">GitLab</li>
         </ol>
 
         <!-- Combinator Selectors -->
